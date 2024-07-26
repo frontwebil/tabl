@@ -1,0 +1,49 @@
+.the-latest-comments {
+  margin: 0 20px;
+}
+.the-latest-comments-title {
+  color: #212226;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 22.5px */
+  font-variant: all-small-caps;
+}
+.the-latest-comments-container {
+  margin-top: 5px;
+  border-left: 4px #d9d9d9 solid;
+}
+/* .testi-card {
+} */
+.grey-line {
+  width: 220px;
+  height: 4px;
+  background-color: #d9d9d9;
+}
+.testi-card-flex {
+  padding: 12px 0 20px 16px;
+  display: flex;
+  gap: 8px;
+}
+.testi-card-flex-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.testi-card-name {
+  color: #dd4c2f;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 17.5px */
+}
+.testi-card-text {
+  color: #212226;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 17.5px */
+}

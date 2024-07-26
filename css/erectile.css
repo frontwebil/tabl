@@ -1,0 +1,44 @@
+.erectile {
+  background: #212226;
+}
+.red-block {
+  width: 112px;
+  height: 11px;
+  background: #de4d30;
+}
+.erectile-title {
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 35px */
+  padding-top: 12px;
+  padding: 12px 10px 30px;
+}
+.erectile-text {
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 20px */
+  padding: 0 15px;
+}
+.erectile-footer {
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 35px */
+  padding: 0 20px 47px;
+}
+
+.erectile-under-img{
+  display: flex;
+  max-width: 390px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: -26px;
+}

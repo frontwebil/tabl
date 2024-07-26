@@ -1,0 +1,101 @@
+.header {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+.nav-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #212226;
+}
+
+.nav-text.active {
+  border-bottom: 4px solid #de4d30;
+  width: 30px;
+}
+
+.liam-section {
+  padding: 20px 0 0;
+  background: #212226;
+  position: relative;
+}
+.liam-section-top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.liam-red-block {
+  width: 15px;
+  height: 11px;
+  background-color: #de4d30;
+}
+
+.liam-section-top-text {
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.liam-section-top-text.border {
+  border-right: 1px solid white;
+  padding-right: 8px;
+}
+
+.liam-section-title {
+  color: #FCFCFC;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+  padding: 0 20px;
+}
+.liam-section-date {
+  color: #fcfcfc;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 20px 330px;
+}
+
+.liam-section-container-img{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -56px;
+
+  max-width: 350px;
+  width: 100%;
+  height: 380px;
+}
+
+.underImage-text{
+  font-size: 12px;
+
+}
+
+.liam-section-img{
+  width: 100%;
+}
+
+
+.SmartHemp {
+  color: #de4d30;
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125%;
+}
