@@ -54,7 +54,7 @@ html{
   text-align: center;
   padding: 10px 0;
 
-  /* animation: my-anim 1.3s cubic-bezier(0, 0, 0.2, 1) infinite; */
+  animation: my-anim 1.3s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .orderButton:hover {
