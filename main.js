@@ -32,8 +32,6 @@ function liamUpdate(){
   }
 
   liam.innerHTML= `${dayNames[liamDayofWeek]}, ${monthNames[liamMonth]} ${liamDay}`
-
-
 }
 liamUpdate()  
 
@@ -47,7 +45,7 @@ dayOfWeekHTML.forEach((el)=>{
 })
 
 dateHTML.forEach((el)=>{
-  el.textContent = `${monthNames[month]} ${day} , ${year}`;
+  el.innerHTML = ` ${monthNames[month]} ${day} , ${year}`;
 })
 
 
